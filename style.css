@@ -25,7 +25,7 @@ body {
   }
   li a {
       display: block;
-      color: #000;
+      color: #6B5353;
       padding: 8px 2%;
       text-decoration: none;
   }
@@ -34,7 +34,7 @@ body {
       color: white;
   }
 .active {
-  background-color: green;
+  background-color: 787391;
 }
 .notyet {
   border-style:
