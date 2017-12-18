@@ -1,4 +1,6 @@
 body {
+  margin-left: 120px;
+  margin-right: 80px;
   background: repeating-RADIAL-gradient(rgba(255, 0, 0, 0.5)1%, rgba(255, 100, 100, 0.5) 1%, rgba(255, 0, 0, 0.5)1%);
 }
 .maintext {
@@ -15,30 +17,37 @@ body {
   text-decoration: none;
   display: block;
 }
-  ul {
+.menu ul {
+      position: fixed;
+      left: 3%;
+      bottom: 5%;
       list-style-type: none;
+      height: 80px;
       margin: 0;
       padding: 0;
-      width: 200px;
-      background-color: #6B5353;
-      border: 2px solid #555;
-  }
-  li a {
+      width: 80px;
+      background-color: #a0a0a0;
+      border: 1px solid black;
+}
+.menu  li a {
       display: block;
-      color: #6B5353;
+      color: e0e0e0;
       padding: 8px 2%;
+      padding-bottom: 0;
       text-decoration: none;
-  }
-  li a:hover {
+}
+.menu  li a:hover {
       background-color: #555;
       color: white;
-  }
+}
 .active {
-  background-color: #787391;
+  background-color: #606060;
 }
 .notyet {
   border-style:
 }
 .listimage {
   display: list-item;
+  width: 50%;
+  vertical-align: middle;
 }
