@@ -8,8 +8,8 @@ body {
 }
 .BTT {
   position: fixed;
-  right: 3%;
-  bottom: 5%;
+  right: 20px;
+  bottom: 20px;
   cursor: pointer;
   border: none;
   outline: none;
@@ -19,8 +19,8 @@ body {
 }
 .menu ul {
       position: fixed;
-      left: 3%;
-      bottom: 5%;
+      left: 20px;
+      bottom: 20px;
       list-style-type: none;
       height: 80px;
       margin: 0;
