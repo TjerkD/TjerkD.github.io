@@ -22,6 +22,7 @@ body {
       margin: 0;
       background-image: url(antheader.jpg);
       background-size: cover;
+      background-position: center;
 }
 .header h1 {
       text-align: center;
